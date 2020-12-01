@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD:keyboards/xelus/valor_frl_tkl/keymaps/default/config.h
 /* Copyright 2020 Harrison Chan (Xelus)
+=======
+/* Copyright 2020 rate
+>>>>>>> upstream/master:keyboards/pistachio_mp/pistachio_mp.c
+=======
+/* Copyright 2020 Harrison Chan (Xelus)
+>>>>>>> upstream/master
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -13,7 +21,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+<<<<<<< HEAD
+<<<<<<< HEAD:keyboards/xelus/valor_frl_tkl/keymaps/default/config.h
+=======
+>>>>>>> upstream/master
 #pragma once
 
 #define USB_POLLING_INTERVAL_MS 1
 #define QMK_KEYS_PER_SCAN 4
+<<<<<<< HEAD
+=======
+
+#include "pistachio_mp.h"
+>>>>>>> upstream/master:keyboards/pistachio_mp/pistachio_mp.c
+=======
+>>>>>>> upstream/master
