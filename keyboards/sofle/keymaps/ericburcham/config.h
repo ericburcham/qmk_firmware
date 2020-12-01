@@ -13,4 +13,5 @@ for more options.
 #define RGBLED_SPLIT {12, 12}
 #define RGBLIGHT_LED_MAP {11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0}
 #define RGBLIGHT_SPLIT
+#define SPLIT_USB_DETECT
 #define WS2812_TRST_US 80
