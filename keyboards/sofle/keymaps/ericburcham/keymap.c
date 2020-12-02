@@ -98,7 +98,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,                        KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,  KC_F12,
    // |--------+--------+--------+--------+--------+--------|                      |--------+--------+--------+--------+--------+--------|
    // |    Caps|        |PrntScrn|  ScrLck|   Pause|        |                      |       -|       =|       ||       [|       ]|        |
-        _______, XXXXXXX, KC_PSCR, KC_SLCK, KC_PAUS, XXXXXXX,/*------.    .-------*/ KC_PMNS, KC_PEQL, KC_PIPE, KC_LBRC, KC_RBRC, XXXXXXX,
+        _______, XXXXXXX, KC_PSCR, KC_SLCK, KC_PAUS, XXXXXXX,/*------.    .-------*/ KC_MINS,  KC_EQL, KC_PIPE, KC_LBRC, KC_RBRC, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|        |    |        |--------+--------+--------+--------+--------+--------|
    // |  LShift|        |        |        |        |     Esc|    Mute|    | RGB Tog|       _|       +|       ~|       {|       }|  RShift|
         _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______,      _______, KC_UNDS, KC_PLUS, KC_TILD, KC_LCBR, KC_RCBR, _______,
@@ -114,16 +114,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    [_ADJUST] = LAYOUT(
    // .-----------------------------------------------------.                      .-----------------------------------------------------.
    // | Effect-| Effect+|    Hue-|    Hue+|    Sat-|    Sat+|                      | Bright-| Bright+|        |        |        | RGB Tog|
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        RGB_SPD, RGB_SPI, RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI,                        RGB_VAD, RGB_VAI, XXXXXXX, XXXXXXX, XXXXXXX, RGB_TOG,
    // |--------+--------+--------+--------+--------+--------|                      |--------+--------+--------+--------+--------+--------|
    // |        |        |        |        |        |        |                      |        |        |        |        |        |        |
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|                      |--------+--------+--------+--------+--------+--------|
    // |        |        |        |        |        |        |                      |        |    Mute|    Vol-|    Vol+|        |        |
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,/*------.    .-------*/ XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,/*------.    .-------*/ XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU, XXXXXXX, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|        |    |        |--------+--------+--------+--------+--------+--------|
    // |   Reset|        |        |        |        |     Esc|    Mute|    | RGB Tog|        | PrvTrck|    Play| NxtTrck|        |  RShift|
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______,      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,
+          RESET, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______,      _______, XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, _______,
    // .-----------------------------------------------------/        /    \        \-----------------------------------------------------.
    //                |    LCtr|    LGUI|    LAlt|   LOWER| /   Space/      \   Enter\ |   RAISE|    RAlt|    Menu|    RCtl|
                        _______, _______, _______, _______,  _______,          _______,  _______, _______, _______, _______
