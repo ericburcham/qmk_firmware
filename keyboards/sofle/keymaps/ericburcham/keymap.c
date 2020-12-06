@@ -59,8 +59,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    // |  LShift|       Z|       X|       C|       V|       B|    Mute|    | RGB Tog|       N|       M|       ,|       .|       /|  RShift|
         KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B, KC_MUTE,      RGB_TOG,    KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_RSFT,
    // .-----------------------------------------------------/        /    \        \-----------------------------------------------------.
-   //                |    LCtr|    LGUI|    LAlt|   LOWER| /   Space/      \   Enter\ |   RAISE|    RAlt|    Menu|    RCtl|
-                      KC_LCTRL, KC_LGUI, KC_LALT,KC_LOWER,   KC_SPC,           KC_ENT, KC_RAISE, KC_RALT,  KC_APP,KC_RCTRL
+   //                |    LCtr|    LGUI|    LAlt|   LOWER| /   Enter/      \   Space\ |   RAISE|    RAlt|    Menu|    RCtl|
+                      KC_LCTRL, KC_LGUI, KC_LALT,KC_LOWER,   KC_ENT,           KC_SPC, KC_RAISE, KC_RALT,  KC_APP,KC_RCTRL
    //                '--------------------------------------------'          '--------''----------------------------------'
    ),
 
