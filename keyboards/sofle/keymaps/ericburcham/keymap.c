@@ -100,8 +100,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    // |    Caps|        |PrntScrn|  ScrLck|   Pause|        |                      |       -|       =|       ||       [|       ]|        |
         _______, XXXXXXX, KC_PSCR, KC_SLCK, KC_PAUS, XXXXXXX,/*------.    .-------*/ KC_MINS,  KC_EQL, KC_PIPE, KC_LBRC, KC_RBRC, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|        |    |        |--------+--------+--------+--------+--------+--------|
-   // |  LShift|        |        |        |        |     Esc|    Mute|    | RGB Tog|       _|       +|       ~|       {|       }|  RShift|
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______,      _______, KC_UNDS, KC_PLUS, KC_TILD, KC_LCBR, KC_RCBR, _______,
+   // |  LShift|    Undo|     Cut|    Copy|   Paste|     Esc|    Mute|    | RGB Tog|       _|       +|       ~|       {|       }|  RShift|
+        _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V),  KC_ESC, _______,      _______, KC_UNDS, KC_PLUS, KC_TILD, KC_LCBR, KC_RCBR, _______,
    // .-----------------------------------------------------/        /    \        \-----------------------------------------------------.
    //                |    LCtr|    LGUI|    LAlt|   LOWER| /   Space/      \   Enter\ |   RAISE|    RAlt|    Menu|    RCtl|
                        _______, _______, _______, _______,  _______,          _______,  _______, _______, _______, _______
