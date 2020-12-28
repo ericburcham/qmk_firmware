@@ -74,8 +74,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    // |    Caps|        |        |        |        |        |                      |        |    Left|    Down|      Up|   Right|        |
         _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,/*------.    .-------*/ XXXXXXX, KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|        |    |        |--------+--------+--------+--------+--------+--------|
-   // |  LShift|    Undo|     Cut|    Copy|   Paste|     Esc|    LGUI|    |    Menu|        |        |        |        |        |  RShift|
-        _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V),  KC_ESC, _______,      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,
+   // |  LShift|    Undo|     Cut|    Copy|   Paste|     Esc|    LGUI|    |    Menu|        |        |        |        |       \|  RShift|
+        _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V),  KC_ESC, _______,      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_BSLS, _______,
    // .-----------------------------------------------------/        /    \        \-----------------------------------------------------.
    //                         |    LCtr|    LAlt|  Layer1| /   Space/      \   Enter\ |  Layer3|    RAlt|    RCtl|
                                 _______, _______, _______,  _______,           _______,   MO(3), _______, _______
