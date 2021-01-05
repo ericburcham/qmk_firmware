@@ -71,8 +71,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    // |     Tab|        |        |        |        |        |                      |    Redo|     Del|     End|  PgDown|        |     Del|
         _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        C(KC_Y),  KC_DEL,  KC_END, KC_PGDN, XXXXXXX,  KC_DEL,
    // |--------+--------+--------+--------+--------+--------|                      |--------+--------+--------+--------+--------+--------|
-   // |    Caps| SlctAll|    Save|        |    Find|        |                      |        |    Left|    Down|      Up|   Right|        |
-        _______, C(KC_A), C(KC_S), XXXXXXX, C(KC_F), XXXXXXX,/*------.    .-------*/ XXXXXXX, KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX,
+   // |    Caps| SlctAll|    Save|        |    Find|        |                      | Replace|    Left|    Down|      Up|   Right|        |
+        _______, C(KC_A), C(KC_S), XXXXXXX, C(KC_F), XXXXXXX,/*------.    .-------*/ C(KC_H), KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|        |    |        |--------+--------+--------+--------+--------+--------|
    // |  LShift|    Undo|     Cut|    Copy|   Paste|     Esc|    LGUI|    |    Menu|        |        |        |        |       \|  RShift|
         _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V),  KC_ESC, _______,      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_BSLS, _______,
