@@ -75,11 +75,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    // |     Tab|        |        |        |        |        |                      |    Redo|     Del|     End|  PgDown|        |     Del|
         _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        C(KC_Y),  KC_DEL,  KC_END, KC_PGDN, XXXXXXX,  KC_DEL,
    // |--------+--------+--------+--------+--------+--------|                      |--------+--------+--------+--------+--------+--------|
-   // |    Caps|        |        |        |        |        |                      |        |    Left|    Down|      Up|   Right|        |
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,/*------.    .-------*/ XXXXXXX, KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX,
+   // |    Caps| SlctAll|    Save|        |    Find|        |                      | Replace|    Left|    Down|      Up|   Right|        |
+        _______, C(KC_A), C(KC_S), XXXXXXX, C(KC_F), XXXXXXX,/*------.    .-------*/ C(KC_H), KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|        |    |        |--------+--------+--------+--------+--------+--------|
-   // |  LShift|    Undo|     Cut|    Copy|   Paste|     Esc|    Mute|    | RGB Tog|        |        |        |        |        |  RShift|
-        _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V),  KC_ESC, _______,      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,
+   // |  LShift|    Undo|     Cut|    Copy|   Paste|     Esc|    Mute|    | RGB Tog|        |        |        |        |       \|  RShift|
+        _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V),  KC_ESC, _______,      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_BSLS, _______,
    // .-----------------------------------------------------/        /    \        \-----------------------------------------------------.
    //                |    LCtr|    LGUI|    LAlt|   LOWER| /   Space/      \   Enter\ |   RAISE|    RAlt|    Menu|    RCtl|
                        _______, _______, _______, _______,  _______,          _______,  _______, _______, _______, _______
@@ -97,11 +97,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    // |     Tab|       !|       @|       #|       $|       %|                      |       ^|       &|       *|       (|       )|     F12|
         _______, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,                        KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,  KC_F12,
    // |--------+--------+--------+--------+--------+--------|                      |--------+--------+--------+--------+--------+--------|
-   // |    Caps|        |PrntScrn|  ScrLck|   Pause|        |                      |       -|       =|       ||       [|       ]|        |
-        _______, XXXXXXX, KC_PSCR, KC_SLCK, KC_PAUS, XXXXXXX,/*------.    .-------*/ KC_MINS,  KC_EQL, KC_PIPE, KC_LBRC, KC_RBRC, XXXXXXX,
+   // |    Caps| SlctAll|    Save|PrntScrn|  ScrLck|   Pause|                      |       -|       =|       ||       [|       ]|        |
+        _______, _______, _______, KC_PSCR, KC_SLCK, KC_PAUS,/*------.    .-------*/ KC_MINS,  KC_EQL, KC_PIPE, KC_LBRC, KC_RBRC, XXXXXXX,
    // |--------+--------+--------+--------+--------+--------|        |    |        |--------+--------+--------+--------+--------+--------|
    // |  LShift|    Undo|     Cut|    Copy|   Paste|     Esc|    Mute|    | RGB Tog|       _|       +|       ~|       {|       }|  RShift|
-        _______, C(KC_Z), C(KC_X), C(KC_C), C(KC_V),  KC_ESC, _______,      _______, KC_UNDS, KC_PLUS, KC_TILD, KC_LCBR, KC_RCBR, _______,
+        _______, _______, _______, _______, _______,  KC_ESC, _______,      _______, KC_UNDS, KC_PLUS, KC_TILD, KC_LCBR, KC_RCBR, _______,
    // .-----------------------------------------------------/        /    \        \-----------------------------------------------------.
    //                |    LCtr|    LGUI|    LAlt|   LOWER| /   Space/      \   Enter\ |   RAISE|    RAlt|    Menu|    RCtl|
                        _______, _______, _______, _______,  _______,          _______,  _______, _______, _______, _______
